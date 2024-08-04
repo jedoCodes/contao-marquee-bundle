@@ -1,0 +1,57 @@
+{
+    "name": "jedocodes/contao-marquee-bundle",
+    "description": "Integration of a marguee slider with image or text-line into the contao webpage",
+    "keywords": [
+        "contao",
+        "bundle",
+        "marquee",
+        "slider",
+        "text",
+        "image"
+    ],
+    "type": "contao-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jedoCodes",
+            "email": "dev@jedo.codes",
+            "homepage": "https://jedo.codes",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jedocodes/contao-marquee-bundle/issues",
+        "source": "https://github.com/jedocodes/contao-marquee-bundle"
+    },
+    "require": {
+        "php": "^8.1",
+        "contao/core-bundle": "^5.3"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.12",
+        "contao/test-case": "self.version",
+        "phpunit/phpunit": "^9.5",
+        "symfony/http-client": "^5.4 || ^6.0",
+        "symfony/phpunit-bridge": "^5.4 || ^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jedocodes\\ContaoMarqueeBundle\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "contao-components/installer": false,
+            "contao/manager-plugin": false,
+            "contao-community-alliance/composer-plugin": true
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Jedocodes\\ContaoMarqueeBundle\\ContaoManager\\Plugin"
+    },
+    "scripts": {
+        "cs-fixer": "@php tools/ecs/vendor/bin/ecs check config/ contao/ src/ templates/ tests/ --config tools/ecs/config.php --fix --ansi",
+        "unit-tests": "@php tools/phpunit/vendor/bin/phpunit -c tools/phpunit/phpunit.xml.dist"
+    },
+    "version": "1.0"
+}

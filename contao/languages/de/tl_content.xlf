@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="vendor/jedocodes/contao-marquee-bundle/contao/languages/en/tl_content.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_content.marqueeSlider_legend">
+        <source>Marquee Slider - Settings</source>
+        <target>Marquee Slider - Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeListitems_legend">
+        <source>Marquee Text-Slider - List Items</source>
+        <target>Marquee Text-Slider - Listeneinträge</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType.0">
+        <source>Marquee Slider Type</source>
+        <target>Marguee Slider Type</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType.1">
+        <source>Select the type of slider you want to use.</source>
+        <target>Wählen Sie aus, welche Art von Slider sie einsetzen wollen.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed.0">
+        <source>Speed</source>
+        <target>Geschwindigkeit</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed.1">
+        <source>The speed of the movement can be standardized or customized, allowing for different animation effects.</source>
+        <target>Die Geschwindigkeit der Bewegung kann standardisiert oder benutzerdefiniert sein, sodass unterschiedliche Animationseffekte möglich sind</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeCustomSpeed.0">
+        <source>Custom Speed</source>
+        <target>Benutzerdefinierte Geschwindigkeit</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeCustomSpeed.1">
+        <source>Enter the desired speed in seconds here.</source>
+        <target>Geben Sie hier die gewünschte Geschwindigkeit in Sekunden ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeRotate.0">
+        <source>Rotation</source>
+        <target>Rotation</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeRotate.1">
+        <source>The rotation degree is specified in degrees and indicates how many degrees the slider is rotated from the horizontal. A value of 45 means a rotation of 45 degrees.</source>
+        <target>Die Rotationsgrad wird in Grad angegeben und gibt an, um wie viele Grad der Slider gegenüber der Horizontalen gedreht werden soll. Ein Wert von 45 bedeutet beispielsweise eine Drehung um 45 Grad.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection.0">
+        <source>Direction</source>
+        <target>Richtung</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection.1">
+        <source>Set the direction of the movement.</source>
+        <target>Legen Sie die Richtung der Bewegung fest.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeListItems.0">
+        <source>List Items</source>
+        <target>Listeneinträge</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeListItems.1">
+        <source>If JavaScript is disabled, be sure to save your changes before changing the order.</source>
+        <target>Wenn JavaScript deaktiviert ist, speichern Sie unbedingt Ihre Änderungen, bevor Sie die Reihenfolge ändern.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType_options.marqueeText.0">
+        <source>Text-List Slider</source>
+        <target>Text-Liste Slider</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType_options.marqueeText.1">
+        <source>The Text-List Slider is a special type of slider that displays text content in continuous motion. This type of slider can be used to present news, announcements, quotes, or any textual elements on a website in an engaging and dynamic way.</source>
+        <target>Der Text-Liste Slider ist eine spezielle Art von Slider, der Textinhalte in einer fortlaufenden Bewegung darstellt. Diese Art von Slider kann verwendet werden, um Nachrichten, Ankündigungen, Zitate oder beliebige textuelle Elemente auf einer Webseite ansprechend und dynamisch zu präsentieren.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType_options.marqueeGalerie.0">
+        <source>Image Gallery Slider</source>
+        <target>Bilder-Galerie Slider</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType_options.marqueeGalerie.1">
+        <source>The Image Gallery Slider is a type of slider that displays a collection of images in continuous motion. This functionality is ideal for presenting image galleries, product images, logos, or other visual content in an engaging and dynamic way.</source>
+        <target>Der Bilder-Galerie Slider ist eine Art von Slider, der eine Sammlung von Bildern in einer fortlaufenden Bewegung darstellt. Diese Funktionalität eignet sich hervorragend, um Bildgalerien, Produktbilder, Logos oder andere visuelle Inhalte auf ansprechende und dynamische Weise zu präsentieren.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection_options.right.0">
+        <source>From Left to Right</source>
+        <target>von Links nach Rechts</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection_options.right.1">
+        <source>The slider moves from left to right (reverse).</source>
+        <target>Der Slider bewegt sich von links nach rechts (reverse)</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection_options.left.0">
+        <source>From Right to Left</source>
+        <target>von Rechts nach Links</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection_options.left.1">
+        <source>The slider moves from right to left (forwards).</source>
+        <target>Der Slider bewegt sich von rechts nach links (forwards)</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.slow.0">
+        <source>Slow</source>
+        <target>Langsam</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.slow.1">
+        <source>The speed of the image movement is set to 60s. This is very slow.</source>
+        <target>Geschwindigkeit der Bildbewegung ist auf den Wert 60s festgelegt. Das ist sehr langsam.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.fast.0">
+        <source>Fast</source>
+        <target>Schnell</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.fast.1">
+        <source>The speed of the image movement is set to 20s. This is fast.</source>
+        <target>Geschwindigkeit der Bildbewegung ist auf den Wert 20s festgelegt. Das ist schnell.</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.custom.0">
+        <source>Custom</source>
+        <target>Induviduell</target>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.custom.1">
+        <source>The speed of the image movement can be set individually.</source>
+        <target>Geschwindigkeit der Bildbewegung kann individuell festgelegt werden.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="vendor/jedocodes/contao-marquee-bundle/contao/languages/en/default.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="CTE.marquee.0">
+        <source>Marquee Slider</source>
+        <target>Marquee Slider</target>
+      </trans-unit>
+      <trans-unit id="CTE.marquee.1">
+        <source>Creates a slider element with image or text elements.</source>
+        <target>Erzeugt ein Slider-Element mit Bild oder Text Elementen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

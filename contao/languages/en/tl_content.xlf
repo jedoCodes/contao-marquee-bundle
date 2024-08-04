@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="vendor/jedocodes/contao-marquee-bundle/contao/languages/en/tl_content.php" source-language="en">
+    <body>
+      <trans-unit id="tl_content.marqueeSlider_legend">
+        <source>Marquee Slider - Settings</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeListitems_legend">
+        <source>Marquee Text-Slider - List Items</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType.0">
+        <source>Marquee Slider Type</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType.1">
+        <source>Select the type of slider you want to use.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed.0">
+        <source>Speed</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed.1">
+        <source>The speed of the movement can be standardized or customized, allowing for different animation effects.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeCustomSpeed.0">
+        <source>Custom Speed</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeCustomSpeed.1">
+        <source>Enter the desired speed in seconds here.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeRotate.0">
+        <source>Rotation</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeRotate.1">
+        <source>The rotation degree is specified in degrees and indicates how many degrees the slider is rotated from the horizontal. A value of 45 means a rotation of 45 degrees.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection.0">
+        <source>Direction</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection.1">
+        <source>Set the direction of the movement.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeListItems.0">
+        <source>List Items</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeListItems.1">
+        <source>If JavaScript is disabled, be sure to save your changes before changing the order.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType_options.marqueeText.0">
+        <source>Text-List Slider</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType_options.marqueeText.1">
+        <source>The Text-List Slider is a special type of slider that displays text content in continuous motion. This type of slider can be used to present news, announcements, quotes, or any textual elements on a website in an engaging and dynamic way.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType_options.marqueeGalerie.0">
+        <source>Image Gallery Slider</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeType_options.marqueeGalerie.1">
+        <source>The Image Gallery Slider is a type of slider that displays a collection of images in continuous motion. This functionality is ideal for presenting image galleries, product images, logos, or other visual content in an engaging and dynamic way.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection_options.right.0">
+        <source>From Left to Right</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection_options.right.1">
+        <source>The slider moves from left to right (reverse).</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection_options.left.0">
+        <source>From Right to Left</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeDirection_options.left.1">
+        <source>The slider moves from right to left (forwards).</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.slow.0">
+        <source>Slow</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.slow.1">
+        <source>The speed of the image movement is set to 60s. This is very slow.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.fast.0">
+        <source>Fast</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.fast.1">
+        <source>The speed of the image movement is set to 20s. This is fast.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.custom.0">
+        <source>Custom</source>
+      </trans-unit>
+      <trans-unit id="tl_content.marqueeSpeed_options.custom.1">
+        <source>The speed of the image movement can be set individually.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

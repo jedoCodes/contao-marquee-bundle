@@ -1,0 +1,25 @@
+.cte_preview .content-marquee .marquee__inner figure img {
+    max-width: 100px !important;
+}
+
+.cte_preview .content-marquee .marquee__inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2px;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+}
+
+.cte_preview .content-marquee .brand-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+}
+
+.cte_preview .content-marquee .brand-list li {
+    border: 1px solid #999;
+    padding: 5px 15px;
+}

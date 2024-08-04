@@ -1,0 +1,71 @@
+{% extends "@Contao/content_element/_base.html.twig" %}
+{% use "@Contao/component/_stylesheet.html.twig" %}
+{% use "@Contao/component/_list.html.twig" %}
+{% use "@Contao/component/_figure.html.twig" %}
+
+{% block content %}
+    {% set rotate = '--rotate: ' ~ marquee_rotate ~ 'deg;' %}
+
+    {% set combined_style = rotate ~ ' ' ~ marquee_customSpeed %}
+
+    {% if marquee_typ == "marqueeGalerie" %}
+        {% set sliderClass = 'marquee galerie' %}
+        {% set wrapperClass = 'marquee__inner' %}
+        {% set tag_name = 'div' %}
+    {% elseif marquee_typ == "marqueeText" %}
+        {% set sliderClass = 'marquee brands' %}
+        {% set wrapperClass = 'brand-list marquee__inner' %}
+        {% set tag_name = 'ul' %}
+    {% endif %}
+
+    {% set marquee_attributes = attrs()
+        .addClass(sliderClass)
+        .set('style', combined_style)
+        .set('data-direction',marquee_direction)
+        .set('data-speed',marquee_speed)
+        .mergeWith(marquee_attributes|default)
+    %}
+
+    <div{{ marquee_id }}{{ marquee_attributes }}>
+
+        {% set marquee_wrapper_attributes = attrs()
+            .addClass(wrapperClass)
+            .mergeWith(marquee_wrapper_attributes|default)
+        %}
+        <{{ tag_name }}{{ marquee_wrapper_attributes }}>
+        {% block slides %}
+            {% if marquee_typ == "marqueeGalerie" %}
+
+                {% for image in images %}
+
+                    {% with {figure: image} %}{{ block('figure_component') }}{% endwith %}
+
+                {% endfor %}
+            {% elseif marquee_typ == "marqueeText" %}
+                {% for item in items %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+            {% endif %}
+        {% endblock %}
+        </{{ tag_name }}>
+    </div>
+{% endblock %}
+
+{% block script %}
+    {% add "marquee_js" to body %}
+        {% set script_attributes = attrs()
+            .setIfExists('nonce', csp_nonce('script-src'))
+            .mergeWith(script_attributes|default)
+        %}
+        <script src="bundles/jedocodesmarquee/js/marquee.js"></script>
+
+    {% endadd %}
+{% endblock %}
+
+{% block style %}
+    {% set marquee_css_file = "bundles/jedocodesmarquee/css/marquee_frontend.css" %}
+
+    {% add "marquee_css" to stylesheets %}
+        {% with {file: marquee_css_file} %}{{ block('stylesheet_component') }}{% endwith %}
+    {% endadd %}
+{% endblock %}

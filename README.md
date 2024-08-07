@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/jedoCodes/package-metadata/3728dc750472881a48aca6075efd7f4dc8af7356/meta/jedocodes/logo.svg" alt="Logo" width="250" height="auto">
 
-[![Latest Stable Version](http://poser.pugx.org/jedocodes/contao-marquee-bundle/v)](https://packagist.org/packages/jedocodes/contao-marquee-bundle) [![Total Downloads](http://poser.pugx.org/jedocodes/contao-marquee-bundle/downloads)](https://packagist.org/packages/jedocodes/contao-marquee-bundle) [![Latest Unstable Version](http://poser.pugx.org/jedocodes/contao-marquee-bundle/v/unstable)](https://packagist.org/packages/jedocodes/contao-marquee-bundle) [![License](http://poser.pugx.org/jedocodes/contao-marquee-bundle/license)](https://packagist.org/packages/jedocodes/contao-marquee-bundle) [![PHP Version Require](http://poser.pugx.org/jedocodes/contao-marquee-bundle/require/php)](https://packagist.org/packages/jedocodes/contao-marquee-bundle)
+[![Latest Stable Version](https://poser.pugx.org/jedocodes/contao-marquee-bundle/version.svg)](https://packagist.org/packages/jedocodes/contao-marquee-bundle) [![Downloads](https://poser.pugx.org/jedocodes/contao-marquee-bundle/d/total.svg)](https://packagist.org/packages/jedocodes/contao-marquee-bundle) [![Latest Unstable Version](https://poser.pugx.org/jedocodes/contao-marquee-bundle/v/unstable.svg)](https://packagist.org/packages/jedocodes/contao-marquee-bundle) [![License](https://poser.pugx.org/jedocodes/contao-marquee-bundle/license.svg)](https://packagist.org/packages/jedocodes/contao-marquee-bundle)
 
 
 # Contao Marquee Slider

@@ -34,14 +34,14 @@
         %}
         <{{ tag_name }}{{ marquee_wrapper_attributes }}>
         {% block slides %}
-            {% if marquee_typ == "marqueeGalerie" %}
+            {% if marquee_typ == "marqueeGalerie" and images is not empty %}
 
                 {% for image in images %}
 
                     {% with {figure: image} %}{{ block('figure_component') }}{% endwith %}
 
                 {% endfor %}
-            {% elseif marquee_typ == "marqueeText" %}
+            {% elseif marquee_typ == "marqueeText" and items is not empty %}
                 {% for item in items %}
                     <li>{{ item }}</li>
                 {% endfor %}

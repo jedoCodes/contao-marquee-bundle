@@ -8,6 +8,9 @@ Types of changes
     Security in case of vulnerabilities.
 )
 
+## 1.0.1 - 2024-08-08
+- [Fixed] - Slider elements was remove and can't be find
+
 ## 1.0.0 – 2024-08-04
 - Init Version
 
